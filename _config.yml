@@ -6,19 +6,15 @@ tagline: Echoes of fire, silence, and thought — poems stitched into existence
 description: A personal blog showcasing poems and artwork
 url: "https://leohybrid.github.io"
 baseurl: ""
-
 github:
   username: leohybrid
-
 twitter:
   username:
-
 social:
   name: Elm Gwandaru
   email: gwandarumathenge@gmail.com
   links:
     - https://github.com/leohybrid
-
 webmaster_verifications:
   google:
   bing:
@@ -26,7 +22,6 @@ webmaster_verifications:
   yandex:
   baidu:
   facebook:
-
 analytics:
   google:
     id:
@@ -42,33 +37,25 @@ analytics:
     id:
   fathom:
     id:
-
 pageviews:
   provider:
-
 theme_mode: auto
 cdn: ""
 avatar: "/commons/avatar.jpg"
 social_preview_image:
-
 toc: true
-
 comments:
   provider:
-
 assets:
   self_host:
     enabled:
     env:
-
 pwa:
   enabled: true
   cache:
     enabled: true
     deny_paths:
-
 paginate: 10
-
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
@@ -79,7 +66,6 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
-
 collections:
   tabs:
     output: true
@@ -93,7 +79,6 @@ collections:
   published-books:
     output: true
     permalink: /published-books/:path/
-
 defaults:
   - scope:
       path: ""
@@ -131,10 +116,8 @@ defaults:
     values:
       layout: page
       comments: true
-
 sass:
   style: compressed
-
 compress_html:
   clippings: all
   comments: all
@@ -143,7 +126,6 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
-
 exclude:
   - "*.gem"
   - "*.gemspec"
@@ -154,7 +136,6 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
-
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
